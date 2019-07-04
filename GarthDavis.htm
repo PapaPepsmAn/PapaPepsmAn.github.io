@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<title>English Lion Assessment (G.D)</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("GoogleEarth.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<link rel="icon" href="GoogleEarthIcon.png">
+
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.htm"class="w3-button w3-block w3-black">Introduction</a>
+    </div>
+	<div class="w3-col s3">
+      <a href="GarthDavis.htm"class="w3-button w3-block w3-black">Google Earth Applications</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Understanding.htm"class="w3-button w3-block w3-black">How do these techniques affect understanding?</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Connection.htm"class="w3-button w3-block w3-black">Conclusion</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="#Top">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Digital Essay by Daniel Griffin</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"><br></span>
+  </div>
+ <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">2019</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+
+<div class="w3-container" id="What" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Google Earth Applications</span></h5>
+    <p>The use of Google Earth applications and its imagery throughout the film provides the connection between Saroo’s two worlds, zooming from Australia to a remote Indian village at the beginning of the film and while the adult Saroo commences his obsessive search for his birth family using his laptop and the world wide web from his lounge room.  He doesn’t need to travel to India personally as all of the information he needs is at his fingertips and he begins his search from his childhood memories.  Saroo utilises the advancements made in technology to make the connection, faster internet speeds, satellite imagery and cheap access to the internet for remote and poor areas.  Without this access to information and visuals Saroo’s personal connection would be impossible.</p>
+    <a href="https://www.google.com/earth/">https://www.google.com/earth/</a>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=uORxtl0SHX0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Thanks for reading! Click on the buttons on the top of the page to traverse pages.</p> <a href="Understanding.htm">Or click here to go to the next page!</a>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

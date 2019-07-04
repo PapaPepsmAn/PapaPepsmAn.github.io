@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<title>English Lion Assessment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("Reunion.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<link rel="icon" href="BEPIS.jpeg">
+
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.htm"class="w3-button w3-block w3-black">Introduction</a>
+    </div>
+	<div class="w3-col s3">
+      <a href="GarthDavis.htm"class="w3-button w3-block w3-black">Google Earth Applications</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Understanding.htm"class="w3-button w3-block w3-black">How do these techniques affect understanding?</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Connection.htm"class="w3-button w3-block w3-black">Conclusion</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="#Top">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Digital Essay by Daniel Griffin</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"><br></span>
+  </div>
+ <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">2019</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+
+<div class="w3-container" id="What" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Conclusion</span></h5>
+    <p>The message conveyed in the film is that contemporary technologies allows people throughout the world to connect with each other without having to be in the same room, building, city or country.  I have used many of the same pathways to highlight the message in the essay, through Google Search for research and information on the film, YouTube for imagery and video snippets, and word processing applications to write and format the information.  Without modern media programs and editing highlighting and confirming my points relating to the question my audience would not have a connection to my digital essay.</p>
+    <p>Without contemporary technology Saroo Brierley would have never been able to reunite with his birth mother and the rest of his family.  The remoteness of Saroo’s home village from the city and living thousands of kilometres away in Australia would have meant that this story would never existed.  Garth Davies has managed to portray the distances and the problem facing Saroo, he shows the hours at the laptop that Saroo spends researching and staring at Google Earth.  It is contemporary technology that solves everything when Saroo recognises pictures on a Google Earth application that he has memories of.  The director has proven that “Contemporary technologies have the power to create a connection or disconnection” with his portrayal of the story line and the characters and use of modern film techniques.</p>
+  </div>
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="How" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">Bibliography</span></h5>
+    <p>How 'Lion explores identity, belonging and cultural heritage, Kirsyen Geekie, Film Features, 2017.
+<br> <a href="www.intofilm.org/news-and-views/articles/lion-feature">www.intofilm.org/news-and-views/articles/lion-feature</a>
+<br> Google Earth Goes to the Movies: How the Star of ‘Lion’ Found His Way Home
+<br> <a href="www.indiewire.com/2016/11/saroo-brierley-lion-google-earth-dev-patel-1201748613/">www.indiewire.com/2016/11/saroo-brierley-lion-google-earth-dev-patel-1201748613/</a>
+<br> The real-life Lion: Saroo Brierley on technology that connects lives, 2017
+<br> <a href="www.telstrawholesale.com.au">www.telstrawholesale.com.au</a>
+<br> ‘Lion’ Cinematographer Shot Early Part of Film From Child’s Point of View, Brett Lang, 2017.
+<br> <a href="variety.com/2016/artisans/production/lion-cinematographer">variety.com/2016/artisans/production/lion-cinematographer</a>
+</p>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Thanks for reading! Click on the buttons on the top of the page to traverse pages.</p> <a href="index.html">Or click here to go to the first page!</a>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>

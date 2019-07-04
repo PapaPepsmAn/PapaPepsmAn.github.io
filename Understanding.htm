@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<title>English Lion Assessment</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("FilmTechniques.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<link rel="icon" href="BEPIS.jpeg">
+
+
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.htm"class="w3-button w3-block w3-black">Introduction</a>
+    </div>
+	<div class="w3-col s3">
+      <a href="GarthDavis.htm"class="w3-button w3-block w3-black">Google Earth Applications</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Understanding.htm"class="w3-button w3-block w3-black">How do these techniques affect understanding?</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="Connection.htm"class="w3-button w3-block w3-black">Conclusion</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="#Top">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Digital Essay by Daniel Griffin</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px"><br></span>
+  </div>
+ <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">2019</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+
+<div class="w3-container" id="What" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">How do film techniues affect understanding?</span></h5>
+    <p>Garth Davis was able to utilise modern film techniques to allow the viewer to be a part of Saroo’s world.  The beginning of the movie is filmed at the height of five year-old Saroo.  The audience can feel how small he is, highlighted in the scene when he is lost in the crowd of thousands at Howrah Railway Station.  He is a tiny boy, the audience see no faces but clothes and bodies, he is being shoved and crushed by the crowd but no-one sees him.  We can feel his fear being lost amongst all of these people.  The camera is hand held and jumps around behind Saroo which adds to the sense of being in the crowd.  The camera then zooms out to the masses of people and one little boy clinging to a pole.  The viewer can feel the hopelessness of the situation, the desperation and fear from the child.</p>
+    <p>The director also used contemporary technology in drone footage to capture the vast landscapes of India to highlight how hard it would be for Saroo to find his family without it. The overhead angles show that despite all of the millions of people who live in India there is still so much land with no-one living there. This gives the viewer a connection to Saroo and problem he faced by having no details of his background other than memories.  India is a massive country.  In contrast the drones highlight the thousands of people that pack the railway station and zoom back further to show the city of Calcutta, rambling and dirty far into the distance.</p>
+  </div>
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="How" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <p>The director uses the visual technique of re-occurring imagery.  The scenes of the landscape from the train with both the child and later the adult Saroo make the connection that he has seen this all before. The viewer also is connected with both the young and old Saroo as the camera follows them around from behind, again the same imagery is being repeated as they walk through narrow lonely lane ways and crowded street scenes.  They always appear to be alone, but you follow them where ever they go. This makes the audience part of Saroo’s journey, a connection to the character. There are the close-ups of hands touching, the physical connection between two people being portrayed as very powerful.  The adult Saroo giving his mother a hug is just like her giving the child Saroo a hug at the beginning at the film.</p>
+</div>
+</div>
+
+
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Thanks for reading! Click on the buttons on the top of the page to traverse pages.</p> <a href="Connection.htm">Or click here to go to the next page!</a>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
